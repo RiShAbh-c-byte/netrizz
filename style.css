@@ -1,0 +1,1074 @@
+html {
+    font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html,
+body {
+
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: auto;
+}
+
+
+/* Background-image */
+
+.main-bg-img {
+    width: 100vw;
+    height: 74vh;
+    object-fit: cover;
+    filter: brightness(35%);
+}
+
+
+header {
+    background-color: rgb(35, 35, 35);
+    width: 100vw;
+    height: 75vh;
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 1.2rem;
+    width: 100vw;
+    align-items: center;
+}
+
+/* The-logo of Netflix */
+
+.Netflix {
+    display: flex;
+
+}
+
+.logo-img {
+    width: 15.3rem;
+    height: 11.3rem;
+}
+
+nav :nth-child(2) {
+    display: flex;
+}
+
+
+/* The translator */
+
+.translator {
+    display: flex;
+    border: .6px solid rgb(135, 135, 135);
+    border-radius: .5rem;
+    width: 10.3rem;
+    height: 1rem;
+    padding: 1rem;
+    gap: .7rem;
+    justify-content: center;
+    background-color: #141414;
+    outline: 2px solid white;
+    outline-offset: 1.2px;
+}
+
+.translator :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+/* The logo of language translator */
+
+.lang-logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: -.2rem;
+}
+
+/* The translator button (function) */
+
+.translate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translate span {
+    font-family: "Martel sans", 'Segoe UI', Ubuto, "Helvetica Neue", Roboto, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+}
+
+.translate img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 1rem;
+}
+
+
+/* The button to sign-in */
+
+.sign-in {
+    height: 3.3rem;
+    margin-left: 2.1rem;
+}
+
+
+.sign-in button {
+    background-color: #E50914;
+    border-radius: .4rem;
+    border: none;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: white;
+    font-weight: 690;
+    font-size: 1.5rem;
+}
+
+.sign-in button:hover {
+    background-color: #b50009;
+}
+
+/* The introductory features and description of the website and your details to get filled in */
+
+main {
+    position: absolute;
+    top: 27rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem;
+    text-align: center;
+}
+
+/* The first introductory heading */
+
+main h1 {
+    font-family: "Martel sans", 'Segoe UI', Ubuto, "Helvetica Neue", Roboto, sans-serif;
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: white
+}
+
+/* The currency symbol used to depict price of subscription */
+.ruppee {
+    height: 6rem;
+    position: relative;
+    top: 1.2rem;
+    width: 4.8rem;
+}
+
+/* The secondary introductory/features heading */
+.sec-heading{
+    margin: auto;
+    text-align: center;
+}
+.sec-heading h2 {
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 450;
+    color: white;
+}
+
+/* The tertiary introductory/features heading */
+.third-heading {
+    margin: auto;
+    text-align: center;
+}
+.third-heading h3 {
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 450;
+    color: white;
+}
+
+/* The log-in div that asks for details of users to get them logged in */
+
+.log-in {
+    display: flex;
+    gap: 1rem;
+}
+
+/* The div asking for email of the user */
+
+.email input {
+    background-color: #141414b2;
+
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    width: 35rem;
+    height: 5.1rem;
+    padding-left: 1rem;
+    padding-top: .1rem;
+    border: .2px solid rgb(135, 135, 135);
+    border-radius: .4rem;
+    color: white;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/* The button that takes user to world of cinema/netflix */
+
+.get-started-btn {
+    background-color: #E50914;
+    border-radius: .5rem;
+    border: none;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    height: 5.4rem;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 600;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.get-started-btn:hover {
+    background-color: #b50009;
+}
+
+/* The img used for depicting the arrow in the get-started button */
+
+.get-started img {
+    width: 3rem;
+    height: 2.5rem;
+
+}
+
+/* the separating line that separates two diff sections */
+
+.separation {
+    width: 100vw;
+    height: .7rem;
+    background-color: rgb(35, 35, 35);
+
+}
+
+/* The Section that contains the the overview of tv-shows and features of netflix regarding it */
+
+.tv-shows {
+    background-color: black;
+    height: 62vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-1 {
+    display: flex;
+    align-items: center;
+gap: 3rem;
+}
+
+
+.description-1 {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60rem;
+}
+
+
+.description-1 h1 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4.8rem;
+
+}
+
+.description-1 h2 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+.tv-1 {
+    display: flex;
+    width: 60rem;
+}
+
+.tv-1 video {
+    position: relative;
+    left: 7.6rem;
+    z-index: 1;
+}
+
+
+.tv-1 img {
+    z-index: 2;
+    position: relative;
+    right: 48rem;
+    height: 44rem;
+}
+
+/* The Section that contains the the overview of mobile-shows and features of netflix regarding it */
+
+.mobile-shows {
+    width: 100vw;
+    height: 69vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 44rem;
+    width: 60rem;
+}
+
+.mobile {
+    height: 44rem;
+    width: 60rem;
+    filter: brightness(90%);
+
+}
+
+.download {
+    border: 2px solid rgb(90, 90, 90);
+    width: 32rem;
+    height: 10.5rem;
+    border-radius: 1.2rem;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    z-index: 2;
+    position: relative;
+    bottom: 8rem;
+}
+
+.download .poster {
+    width: 7rem;
+    height: 9rem;
+    position: relative;
+    left: 1.4rem;
+}
+
+.download h4 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+}
+
+.download span {
+    color: rgb(0, 113, 235);
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+}
+
+.status {
+    position: relative;
+    left: 3rem;
+}
+
+.arrow {
+    position: relative;
+    left: 7rem;
+}
+
+.description-2 {
+    display: flex;
+    flex-direction: column;
+    width: 58rem;
+    gap: 3rem;
+}
+
+.description-2 h1 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+.description-2 h2 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+/* The Section that contains the the overview of ott-shows and features of netflix regarding it */
+
+.ott-shows {
+    background-color: black;
+    height: 61vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-3 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.description-3 {
+    display: flex;
+    flex-direction: column;
+    width: 34vw;
+}
+
+.description-3 h1 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+
+.description-3 h2 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+
+.tv-2 {
+    display: flex;
+    width: 60rem;
+}
+
+.tv-2 video {
+    position: relative;
+    height: 29rem;
+    width: 38.7rem;
+    z-index: 1;
+}
+
+.tv-2 img {
+    z-index: 2;
+    position: relative;
+    right: 48rem;
+    width: 58rem;
+    height: 44rem;
+}
+
+/* The Section that contains the the overview of kids-shows and features of netflix regarding it */
+
+.kids-show {
+    background-color: black;
+    height: 68vh;
+   justify-content: center;
+    display: flex;
+}
+
+.content-4 {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.kids img {
+    height: 45rem;
+}
+
+.description-4 {
+    display: flex;
+    flex-direction: column;
+    width: 55rem;
+}
+
+.description-4 h1 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+.description-4 p {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+/* The section containing the common queries of the users */
+
+.fnq {
+    background-color: black;
+    height: 95vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.fqs-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.fqs-cnt h1 {
+    color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4.8rem;
+margin: auto;
+text-align: center;
+}
+
+.QnA {
+    display: grid;
+    grid-template-rows: repeat( 6, 8rem);
+  gap: 1rem;
+}
+
+.QnA div{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   background-color: rgb(45, 45, 45);
+height: 8.05rem;
+width: 77vw;
+}
+.QnA .ques{
+  color: white;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    padding: 0rem 2.5rem;
+}
+
+.QnA img{
+    width: 4rem;
+    height: 4rem;
+}
+.QnA .plus {
+    padding: 0rem 2.5rem;
+}
+
+/* div asking the user for its details to get started  */
+.details
+{
+    gap: 2rem;
+    flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.details span{
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 450;
+margin: auto;
+text-align: center;
+    color: white;
+}
+
+/* The sections containig various features and hyperlinks of netflix related content and business queries */
+
+.contact{
+    background-color: black;
+    height: 43vh;
+    width: 100vw;
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.queries{
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+    justify-content: center;
+    align-items: center;
+   gap: 1.7rem;
+}
+.queries span{
+    color: rgba(255, 255, 255, 0.7) ;
+    font-size: 1.8rem;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.queries a{
+    color: rgba(255, 255, 255, 0.7) ;
+    font-size: 1.5rem;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 450;
+}
+
+.queries .no{
+    color: rgba(255, 255, 255, 0.7) ;
+    font-size: 1.6rem;
+    font-family: 'Martel sans', 'Segoe UI', 'Ubuto', "Helvetica Neue", 'Roboto', sans-serif;
+    font-weight: 450;
+}
+
+
+/* Media-Queries */
+
+
+@media  screen and (min-width:577px) and (max-width:768px){
+html{
+    font-size: 46%;
+}  
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    width: 96.5vw;
+}
+.sec-heading h2{
+    font-size: 2.6rem;
+}
+.third-heading{
+    margin: 0rem 10rem;
+}
+.third-heading h3{
+    font-size: 2.4rem;
+}
+.tv-shows{
+    height: 73vh;
+}
+.content-1 {
+flex-direction: column;
+margin: auto;
+}
+.description-1{
+    text-align: center;
+    align-items: center;
+}
+
+.tv-1{
+    width: 65rem;
+}
+.tv-1 video{
+    width: 54rem;
+    left: 8.5rem;
+}
+.tv-1 img{
+    right: 53.9rem;
+    height: 47rem;
+}
+.mobile-shows{
+    height: 73vh;
+}
+.content-2{
+    flex-direction: column-reverse;
+}
+.description-2 h1{
+    font-size: 4rem;
+}
+.description-2{
+    height: 31rem;
+    width: 80vw;
+    text-align: center;
+margin-top: 7rem;}
+.download{
+    bottom: 11rem;
+}
+.ott-shows{
+    height: 70vh;
+}
+.content-3{
+    flex-direction: column;
+}
+.description-3{
+    text-align: center;
+  width: 84vw;
+  margin-top: 5rem;
+
+}
+.tv-2{
+    width: 34rem;
+}
+.tv-2 video{
+    left: -4rem;
+  height  : 31.7rem;
+   width : 40rem;
+}
+.tv-2 img{
+   right: 57rem; 
+   width: 69rem;
+height: 50.2rem;
+}
+
+.content-4{
+flex-direction: column-reverse;
+}
+
+.QnA div{
+    width: 85vw;
+}
+
+.fqs-cnt {
+    gap: 8rem;
+}
+
+.queries{
+    grid-template-columns: repeat(2, 30rem);   
+}
+
+.queries a{
+    font-size: 2rem;
+}
+.queries .no{
+    font-size: 2rem;
+}
+.contact{
+    height: 50vh;
+}
+.queries span{
+font-size: 2rem;
+}
+}
+
+@media  screen and (max-width:576px){
+    html{
+        font-size: 34%;
+    }
+    header{
+        height: 66vh;
+    }
+    .main-bg-img {
+        height: 65vh;
+    }
+.log-in{
+    flex-direction: column;
+}
+.get-started{
+    justify-content: center;
+    display: flex;
+}
+
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        width: 96.5vw;
+    }
+    .email input{
+        font-size: 1.7rem;
+    }
+    .sec-heading h2{
+        font-size: 2.6rem;
+    }
+    .third-heading{
+        margin: 0rem 10rem;
+    }
+    .third-heading h3{
+        font-size: 2.5rem;
+    }
+    .tv-shows{
+        height: 65vh;
+    }
+    .content-1 {
+    flex-direction: column;
+    margin: auto;
+    }
+    .description-1{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .tv-1{
+        width: 65rem;
+    }
+    .tv-1 video{
+        width: 54rem;
+        left: 8.5rem;
+    }
+    .tv-1 img{
+        right: 53.9rem;
+        height: 47rem;
+    }
+    .mobile-shows{
+        height: 56vh;
+    }
+    .content-2{
+        flex-direction: column-reverse;
+    }
+    .description-2 h1{
+        font-size: 4rem;
+    }
+    .description-2{
+        height: 31rem;
+        width: 80vw;
+        text-align: center;
+    margin-top: 7rem;}
+    .download{
+        bottom: 11rem;
+    }
+    .ott-shows{
+        height: 55vh;
+    }
+    .content-3{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .description-3{
+        text-align: center;
+      width: 84vw;
+      margin-top: 5rem;
+    
+    }
+    .tv-2{
+        width: 34rem;
+    }
+    .tv-2 video{
+        left: -4rem;
+      height  : 31.7rem;
+       width : 40rem;
+    }
+    .tv-2 img{
+       right: 57rem; 
+       width: 69rem;
+    height: 50.2rem;
+    }
+    
+    .content-4{
+    flex-direction: column-reverse;
+    }
+    .kids-show{
+        height: 54vh;
+    }
+.content-4{
+    gap: 4rem;
+}
+    .QnA div{
+        width: 85vw;
+    }
+    .fnq{
+        height: 77vh;
+    }
+    .fqs-cnt {
+        gap: 8rem;
+    }
+    
+    .queries{
+        grid-template-columns: repeat(2, 30rem);   
+    }
+    
+    .queries a{
+        font-size: 2rem;
+    }
+    .queries .no{
+        font-size: 2rem;
+    }
+    .contact{
+        height: 50vh;
+        padding: 0rem 4rem;
+    }
+    .queries span{
+    font-size: 2rem;
+    }
+
+   
+}
+
+ @media  screen and (min-width:769px) and (max-width:992px){
+
+    html{
+        font-size: 49%;
+    }
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        width: 96.5vw;
+    }
+    .sec-heading h2{
+        font-size: 2.6rem;
+    }
+    .third-heading{
+        margin: 0rem 10rem;
+    }
+    .third-heading h3{
+        font-size: 2.4rem;
+    }
+    .tv-shows{
+        height: 73vh;
+    }
+    .content-1 {
+    flex-direction: column;
+    margin: auto;
+    }
+    .description-1{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .tv-1{
+        width: 65rem;
+    }
+    .tv-1 video{
+        width: 54rem;
+        left: 8.5rem;
+    }
+    .tv-1 img{
+        right: 53.9rem;
+        height: 47rem;
+    }
+    .mobile-shows{
+        height: 73vh;
+    }
+    .content-2{
+        flex-direction: column-reverse;
+    }
+    .description-2 h1{
+        font-size: 4rem;
+    }
+    .description-2{
+        height: 31rem;
+        width: 80vw;
+        text-align: center;
+    margin-top: 7rem;}
+    .download{
+        bottom: 11rem;
+    }
+    .ott-shows{
+        height: 70vh;
+    }
+    .content-3{
+        flex-direction: column;
+    }
+    .description-3{
+        text-align: center;
+      width: 84vw;
+      margin-top: 5rem;
+    
+    }
+    .tv-2{
+        width: 34rem;
+    }
+    .tv-2 video{
+        left: -4rem;
+      height  : 31.7rem;
+       width : 40rem;
+    }
+    .tv-2 img{
+       right: 57rem; 
+       width: 69rem;
+    height: 50.2rem;
+    }
+    
+    .content-4{
+    flex-direction: column-reverse;
+    }
+    
+    .QnA div{
+        width: 85vw;
+    }
+    
+    .fqs-cnt {
+        gap: 8rem;
+    }
+    
+    .queries{
+        grid-template-columns: repeat(2, 30rem);   
+    }
+    
+    .queries a{
+        font-size: 2rem;
+    }
+    .queries .no{
+        font-size: 2rem;
+    }
+    .contact{
+        height: 50vh;
+    }
+    .queries span{
+    font-size: 2rem;
+    }
+
+ }
+
+ @media screen and  (min-width:993px) and (max-width:1440px){
+    html{
+        font-size: 54%;
+    }
+    .content-1{
+        gap: 1rem;
+    }
+    .description-1{
+        align-items: flex-start;
+        width: 59rem;
+        margin: 0rem 8rem;
+    }
+    
+    .tv-1{
+        width: 44rem;
+    }
+    .tv-1 video{
+        width: 43rem;
+        left: -6.5rem;
+    }
+    .tv-1 img{
+        right: 56rem;
+        height: 38rem;
+    }
+    .content-3{
+        gap: 6rem;
+    }
+    .description-3{
+        margin-left: 4rem;
+        width: 47vw;
+
+    }
+    .contact{
+       
+        padding: 0rem 6rem;
+    }
+.description-4{
+    margin-right: 1rem;
+}
+ }
+ @media screen and (min-width:1441px) and (max-width:1580px){
+    html{
+        font-size: 61.2%; 
+    }
+ }
+
